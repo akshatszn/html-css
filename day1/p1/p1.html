@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Data</title>
+    <title>Bakery-site-project</title>
     <style>
         *{
             margin: 0px;
@@ -48,6 +48,37 @@
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 5px;
+        margin-bottom: 0px;
+       }
+       .cakecontainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        background-color: beige;
+       }
+       .namecontainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        padding-bottom: 20px;
+        background-color: beige;
+       }
+       #customer{
+        background-color: beige;
+        margin-right: 10px;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        margin-bottom: 0px;
+       }
+       .names{
+        padding-right: 70px; padding-left: 70px; padding-bottom: 30px;
+        background-color: beige;
+        font-size: larger;
+        font-weight: 200;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(243, 157, 173);
        }
     </style>
 </head>
@@ -57,9 +88,9 @@
         <h1>Sweet Bakery</h1>
         <nav>
             <a href="p1.html">Home</a> |
-            <a href="p2.html">Menu</a> |
-            <a href="#">Order</a>  |
-            <a href="p3.html">Contact</a>
+            <a href="about.html">Menu</a> |
+            <a href="order.html">Order</a>  |
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
     <br><br>
@@ -77,8 +108,37 @@
         <br>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque quas voluptatem molestias facilis in magnam consectetur praesentium mollitia nesciunt ipsum est nam, reprehenderit ea quibusdam voluptas velit ad a.</p>
     </section>
-    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 id="customer">Our Customer Favs</h2>
+    <div class="cakecontainer">
+        <div style="padding-right: 30px; padding-left: 30px; padding-top: 30px; background-color: beige;">
+            <img height="200px" width="200px" src="cake1.avif" alt="cake1">
+        </div>
+        <div style="padding-right: 30px; padding-left: 30px; padding-top: 30px; background-color: beige;"> 
+            <img height="200px" width="200px" src="cake2.avif" alt="cake2">
+        </div>
+        <div style="padding-right: 30px; padding-left: 30px; padding-top: 30px; background-color: beige;">
+            <img height="200px" width="200px" src="cake3.jpg" alt="cake3">
+        </div>
+        <div style="padding-right: 30px; padding-left: 30px; padding-top: 30px; background-color: beige;">
+            <img height="200px" width="200px" src="cake4.jpg" alt="cake4">
+        </div>
+        <div style="padding-right: 30px; padding-left: 30px; padding-top: 30px; background-color: beige;">
+            <img height="200px" width="200px" src="cake5.jpeg" alt="cake5">
+        </div>
+    </div>
+    <div class="namecontainer">
+        <div class="names">Purple Air</div>
+        <div class="names">Dark Chocolate</div>
+        <div class="names">Cake Castle</div>
+        <div class="names">Stwaberry Haze</div>
+        <div class="names">Birthday cake</div>
+    </div>
     <hr>
+    <br>
     <footer>
         &copy; Copyright 2026
     </footer>

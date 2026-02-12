@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7b435b;
+}
+
+#mainheading{
+    font-size: xx-large;
+    font-weight: 10px;
+    color: #bcf8ec;
+}
+.navelements{
+
+    display: flex;
+    justify-content: space-around;
+    color: rgb(130, 129, 129);
+    color: #bcf8ec;
+}
+
+.frontlayout{
+    text-align: center;
+    margin: 0px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(http://cdn.collider.com/wp-content/uploads/2015/05/mad-max-fury-road-image-the-war-rig.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+
+}
+
+#startbtn{
+    border: black solid 1px;
+    border: 2px;
+    color: #bcf8ec;
+    font-size: larger;
+    background-color: #8b687f;
+    padding: 10px;
+}
+
+#startbtn:hover{
+    background-color: rgb(130, 129, 129);
+}
